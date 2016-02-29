@@ -2,16 +2,676 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e48673bd-b6f2-46f0-9c2b-ab67d3b329b5" name="Default" comment="Application complete, more testing remains&#10;&#10;(cherry picked from commit cfd0f5de9fc37a70b3589981b254fbf6c07ebfd4)&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/tests/SeleniumTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/AllergensWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/AllergensWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakedGoodWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakedGoodWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakeryCategoryWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakeryCategoryWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/DrinkRecipeWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/DrinkRecipeWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/IngredientsWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/IngredientsWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/UnitOfMeasureWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/UnitOfMeasureWebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/VendorWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/VendorWebService.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_14_v20151106.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_14_v20151106.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_evosuite_evosuite_standalone_runtime_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/AllergensServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/AllergensServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/BakedGoodServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/BakedGoodServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/BakeryCategoryServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/BakeryCategoryServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/DrinkRecipeServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/DrinkRecipeServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/IngredientsServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/IngredientsServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/UnitOfMeasureServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/UnitOfMeasureServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/VendorServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/services/impl/VendorServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/AllergensWebService_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/AllergensWebService_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/BakedGoodWebService_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/BakedGoodWebService_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/DrinkRecipeWebService_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/DrinkRecipeWebService_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/IngredientsWebService_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/IngredientsWebService_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/VendorWebService_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/evosuite/webservices/VendorWebService_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/AllergensRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/BakedGoodRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/BakeryCategoryRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/DrinkRecipeRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/IngredientsRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/UnitOfMeasureRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/repository/VendorRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/BakedGoodServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/BakedGoodServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/IngredientsServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/IngredientsServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/assets/coffee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/assets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/ui-bootstrap-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/ui-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-bootstrap/ui-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/demo/demo-app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/demo/demo-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/demo/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/dist/angular-local-storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/dist/angular-local-storage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-local-storage/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/angular-resource.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-resource/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/lib/json3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/json3/lib/json3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bower_components/ngInfiniteScroll/src/infinite-scroll.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/HanberryFinalProjectApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/config/ResourceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/Allergens.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/BakedGood.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/BakeryCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/DrinkRecipe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/Ingredients.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/UnitOfMeasure.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/entities/Vendor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/AllergensRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/BakedGoodRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/BakeryCategoryRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/DrinkRecipeRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/IngredientsRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/UnitOfMeasureRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/repository/VendorRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/AllergensService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/BakedGoodService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/BakeryCategoryService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/DrinkRecipeService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/IngredientsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/UnitOfMeasureService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/VendorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/AllergensServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/BakedGoodServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/IngredientsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/UnitOfMeasureServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/services/impl/VendorServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/AllergensWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakedGoodWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/BakeryCategoryWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/DrinkRecipeWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/IngredientsWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/UnitOfMeasureWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/rickhanberryfinal/webservices/VendorWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergens.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/allergens/allergenss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGood.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakedGood/bakedGoods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/bakeryCategory/bakeryCategorys.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/drinkRecipe/drinkRecipes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/entity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredients.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/ingredients/ingredientss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/unitOfMeasure/unitOfMeasures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor-delete-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor-delete-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor-dialog.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/entities/vendor/vendors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/error/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/error/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/main/main.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/main/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/app/main/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/alert/alert.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/alert/alert.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/allergens/allergens.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/bakedGood/bakedGood.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/bakeryCategory/bakeryCategory.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/drinkRecipe/drinkRecipe.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/ingredients/ingredients.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/unitOfMeasure/unitOfMeasure.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/entities/vendor/vendor.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/form/form.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/form/maxbytes.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/form/minbytes.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/form/uib-pager.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/form/uib-pagination.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/interceptor/errorhandler.interceptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/interceptor/notification.interceptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/navbar/navbar.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/navbar/navbar.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/navbar/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/base64.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/capitalize.filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/data-util.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/date-util.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/parse-links.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/sort.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scripts/components/util/truncate.filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.HanberryFinalProjectApplicationTests.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.config.ResourceConfig_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.AllergensTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.BakedGoodTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.BakeryCategoryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.DrinkRecipeTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.IngredientsTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.entities.UnitOfMeasureTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.repository.BakedGoodRepositoryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.repository.DrinkRecipeRepositoryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.AllergensServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.BakedGoodServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.BakeryCategoryServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.DrinkRecipeServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.IngredientsServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.UnitOfMeasureServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.VendorServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.AllergensServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.AllergensServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.BakedGoodServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.BakedGoodServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.BakeryCategoryServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.BakeryCategoryServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.DrinkRecipeServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.DrinkRecipeServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.IngredientsServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.IngredientsServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.UnitOfMeasureServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.VendorServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.services.impl.VendorServiceImpl_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.AllergensWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.AllergensWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.BakedGoodWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.BakedGoodWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.BakeryCategoryWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.BakeryCategoryWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.DrinkRecipeWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.DrinkRecipeWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.IngredientsWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.IngredientsWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.UnitOfMeasureWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.VendorWebServiceIntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.rickhanberryfinal.webservices.VendorWebService_ESTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.HanberryFinalProjectApplicationTests.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.config.ResourceConfig_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.AllergensTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.BakedGoodTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.BakeryCategoryTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.DrinkRecipeTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.IngredientsTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.entities.UnitOfMeasureTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.repository.BakedGoodRepositoryTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.repository.DrinkRecipeRepositoryTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.AllergensServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.BakedGoodServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.BakeryCategoryServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.DrinkRecipeServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.IngredientsServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.UnitOfMeasureServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.VendorServiceTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.AllergensServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.AllergensServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.BakedGoodServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.BakedGoodServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.BakeryCategoryServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.BakeryCategoryServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.DrinkRecipeServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.DrinkRecipeServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.IngredientsServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.IngredientsServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.UnitOfMeasureServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.VendorServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.services.impl.VendorServiceImpl_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.AllergensWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.AllergensWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.BakedGoodWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.BakedGoodWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.BakeryCategoryWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.BakeryCategoryWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.DrinkRecipeWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.DrinkRecipeWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.IngredientsWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.IngredientsWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.UnitOfMeasureWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.VendorWebServiceIntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.rickhanberryfinal.webservices.VendorWebService_ESTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/HanberryFinalProjectApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/AllergensTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/BakedGoodTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/BakeryCategoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/DrinkRecipeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/IngredientsTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/entities/UnitOfMeasureTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/AllergensServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/AllergensServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/BakedGoodServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/BakedGoodServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/BakeryCategoryServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/BakeryCategoryServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/DrinkRecipeServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/DrinkRecipeServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/IngredientsServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/IngredientsServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/UnitOfMeasureServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/UnitOfMeasureServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/VendorServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/services/impl/VendorServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/AllergensWebService_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/AllergensWebService_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/BakedGoodWebService_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/BakedGoodWebService_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/DrinkRecipeWebService_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/DrinkRecipeWebService_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/IngredientsWebService_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/IngredientsWebService_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/VendorWebService_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/evosuite/webservices/VendorWebService_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/AllergensRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/BakedGoodRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/BakeryCategoryRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/DrinkRecipeRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/IngredientsRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/UnitOfMeasureRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/repository/VendorRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/AllergensServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/BakedGoodServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/BakeryCategoryServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/DrinkRecipeServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/IngredientsServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/UnitOfMeasureServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/VendorServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/AllergensServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakedGoodServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakedGoodServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakedGoodServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/BakeryCategoryServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/DrinkRecipeServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/IngredientsServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/IngredientsServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/IngredientsServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/UnitOfMeasureServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/VendorServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest_scaffolding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/AllergensWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/BakedGoodWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/BakeryCategoryWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/DrinkRecipeWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/IngredientsWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/TestUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/UnitOfMeasureWebServiceIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/rickhanberryfinal/webservices/VendorWebServiceIntegrationTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hanberryfinal.iml" afterPath="$PROJECT_DIR$/hanberryfinal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="hanberryfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,62 +687,62 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal in hanberryfinal Coverage Results" MODIFIED="1456759411174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.ESWebServices.applicationContext.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$DrinkRecipeSelenium.coverage" NAME="DrinkRecipeSelenium Coverage Results" MODIFIED="1456728720468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.selenium.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensWebServiceIntegrationTest.coverage" NAME="AllergensWebServiceIntegrationTest Coverage Results" MODIFIED="1456759317195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.ESWebServices.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensServiceImpl_ESTest__1_.coverage" NAME="AllergensServiceImpl_ESTest (1) Coverage Results" MODIFIED="1456759392795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.evosuite.services.impl.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$BakedGoodSelenium_testBakedGoodSelenium.coverage" NAME="BakedGoodSelenium.testBakedGoodSelenium Coverage Results" MODIFIED="1456726149529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.selenium.*</FILTER>
+    <SUITE FILE_PATH="coverage/hanberryfinal$DrinkRecipeWebServiceIntegrationTest.coverage" NAME="DrinkRecipeWebServiceIntegrationTest Coverage Results" MODIFIED="1456611018782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$HanberryFinalProjectApplicationTests.coverage" NAME="HanberryFinalProjectApplicationTests Coverage Results" MODIFIED="1456611090357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$UnitOfMeasureWebServiceIntegrationTest.coverage" NAME="UnitOfMeasureWebServiceIntegrationTest Coverage Results" MODIFIED="1456611057498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$BakedGoodWebServiceIntegrationTest.coverage" NAME="BakedGoodWebServiceIntegrationTest Coverage Results" MODIFIED="1456610955408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$SeleniumTest.coverage" NAME="SeleniumTest Coverage Results" MODIFIED="1456762542097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$VendorWebServiceIntegrationTest.coverage" NAME="VendorWebServiceIntegrationTest Coverage Results" MODIFIED="1456611071834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_webservices_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.webservices in hanberryfinal Coverage Results" MODIFIED="1456760672651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_services_impl_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.services.impl in hanberryfinal Coverage Results" MODIFIED="1456754701644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.services.impl.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_evosuite_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.evosuite in hanberryfinal Coverage Results" MODIFIED="1456760656011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.evosuite.*</FILTER>
+    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensWebServiceIntegrationTest.coverage" NAME="AllergensWebServiceIntegrationTest Coverage Results" MODIFIED="1456759317195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.ESWebServices.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$VendorServiceImpl_ESTest.coverage" NAME="VendorServiceImpl_ESTest Coverage Results" MODIFIED="1456755035536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.services.impl.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensServiceImpl_ESTest.coverage" NAME="AllergensServiceImpl_ESTest Coverage Results" MODIFIED="1456754402402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.services.impl.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$IngredientsWebServiceIntegrationTest.coverage" NAME="IngredientsWebServiceIntegrationTest Coverage Results" MODIFIED="1456611036508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$BakeryCategoryWebServiceIntegrationTest.coverage" NAME="BakeryCategoryWebServiceIntegrationTest Coverage Results" MODIFIED="1456610997624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/hanberryfinal$UnitOfMeasureWebServiceIntegrationTest.coverage" NAME="UnitOfMeasureWebServiceIntegrationTest Coverage Results" MODIFIED="1456611057498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/hanberryfinal$BakedGoodSelenium.coverage" NAME="BakedGoodSelenium Coverage Results" MODIFIED="1456725888525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.selenium.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$SeleniumTest.coverage" NAME="SeleniumTest Coverage Results" MODIFIED="1456762542097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.rickhanberryfinal.tests.*</FILTER>
+    <SUITE FILE_PATH="coverage/hanberryfinal$BakedGoodSelenium_testBakedGoodSelenium.coverage" NAME="BakedGoodSelenium.testBakedGoodSelenium Coverage Results" MODIFIED="1456726149529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.selenium.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hanberryfinal$DrinkRecipeWebServiceIntegrationTest.coverage" NAME="DrinkRecipeWebServiceIntegrationTest Coverage Results" MODIFIED="1456611018782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensServiceImpl_ESTest__1_.coverage" NAME="AllergensServiceImpl_ESTest (1) Coverage Results" MODIFIED="1456759392795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.evosuite.services.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal in hanberryfinal Coverage Results" MODIFIED="1456759411174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.ESWebServices.applicationContext.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_evosuite_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.evosuite in hanberryfinal Coverage Results" MODIFIED="1456760656011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.evosuite.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$IngredientsWebServiceIntegrationTest.coverage" NAME="IngredientsWebServiceIntegrationTest Coverage Results" MODIFIED="1456611036508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_webservices_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.webservices in hanberryfinal Coverage Results" MODIFIED="1456760672651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$AllergensServiceImpl_ESTest.coverage" NAME="AllergensServiceImpl_ESTest Coverage Results" MODIFIED="1456754402402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.services.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$BakeryCategoryWebServiceIntegrationTest.coverage" NAME="BakeryCategoryWebServiceIntegrationTest Coverage Results" MODIFIED="1456610997624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.webservices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hanberryfinal$com_rickhanberryfinal_services_impl_in_hanberryfinal.coverage" NAME="com.rickhanberryfinal.services.impl in hanberryfinal Coverage Results" MODIFIED="1456754701644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rickhanberryfinal.services.impl.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
@@ -98,74 +758,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllergensServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrinkRecipeWebServiceIntegrationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/webservices/DrinkRecipeWebServiceIntegrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.80508476">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1021611">
-              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VendorServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rickhanberryfinal/services/impl/VendorServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HanberryFinalProjectApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/HanberryFinalProjectApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -246,8 +844,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/DrinkRecipeSelenium.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/HanberryFinalProjectApplicationTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -283,10 +881,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
+    <option name="x" value="28" />
     <option name="y" value="23" />
-    <option name="width" value="1688" />
-    <option name="height" value="1001" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -329,7 +927,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -438,8 +1038,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1113,6 +1711,7 @@
       <workItem from="1456761351814" duration="860000" />
       <workItem from="1456769034183" duration="29000" />
       <workItem from="1456769481007" duration="844000" />
+      <workItem from="1456777097727" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Added layers and amended certain things.  Relations are not functioning as desired, will update on arrival at home">
       <created>1456273148714</created>
@@ -1246,30 +1845,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131812000" />
+    <option name="totallyTimeSpent" value="132184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="23" width="1688" height="1001" extended-state="1" />
-    <editor active="false" />
+    <frame x="28" y="23" width="1280" height="725" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16721672" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1508845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3813364" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38109756" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278237" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27579853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35078126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1277,8 +1873,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="EvoSuite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34763476" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3760632" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32453245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1632,54 +2231,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImpl_ESTest_scaffolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/IngredientsServiceImpl_ESTest_scaffolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest_scaffolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rickhanberryfinal/services/impl/VendorServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/VendorServiceImpl_ESTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1398#1399#0" expanded="false" />
+            <element signature="e#1441#1442#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1687,7 +2247,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1716,18 +2278,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/services/impl/AllergensServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rickhanberryfinal/selenium/SeleniumTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1021611">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.80508476">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
