@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.rickhanberryfinal.config.ResourceConfig_ESTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.389 sec <<< FAILURE! - in com.rickhanberryfinal.config.ResourceConfig_ESTest
+test1(com.rickhanberryfinal.config.ResourceConfig_ESTest)  Time elapsed: 0.578 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: com/rickhanberryfinal/config/ResourceConfig
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.instrumentClass(EvoClassLoader.java:116)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.loadClass(EvoClassLoader.java:92)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.instrumentClass(EvoClassLoader.java:116)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.loadClass(EvoClassLoader.java:92)
+	at com.rickhanberryfinal.config.ResourceConfig_ESTest.test1(ResourceConfig_ESTest.java:39)
+
+test0(com.rickhanberryfinal.config.ResourceConfig_ESTest)  Time elapsed: 0.066 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: com/rickhanberryfinal/config/ResourceConfig
+	at com.rickhanberryfinal.config.ResourceConfig_ESTest.test0(ResourceConfig_ESTest.java:23)
+

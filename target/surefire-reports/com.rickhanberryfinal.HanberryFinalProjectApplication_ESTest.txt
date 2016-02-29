@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.148 sec <<< FAILURE! - in com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest
+test7(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.instrumentClass(EvoClassLoader.java:116)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.loadClass(EvoClassLoader.java:92)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test7(HanberryFinalProjectApplication_ESTest.java:186)
+
+test6(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test6(HanberryFinalProjectApplication_ESTest.java:160)
+
+test3(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test3(HanberryFinalProjectApplication_ESTest.java:78)
+
+test2(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test2(HanberryFinalProjectApplication_ESTest.java:62)
+
+test5(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test5(HanberryFinalProjectApplication_ESTest.java:129)
+
+test4(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test4(HanberryFinalProjectApplication_ESTest.java:104)
+
+test1(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test1(HanberryFinalProjectApplication_ESTest.java:45)
+
+test0(com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.rickhanberryfinal.HanberryFinalProjectApplication.main(HanberryFinalProjectApplication.java:10)
+	at com.rickhanberryfinal.HanberryFinalProjectApplication_ESTest.test0(HanberryFinalProjectApplication_ESTest.java:29)
+

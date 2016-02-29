@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>finaltestApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body ng-app="expressoApp">
+
+<div ui-view="navbar" ng-cloak=""></div>
+<div class="container">
+    <div class="well" ui-view="content"></div>
+
+    <div class="footer">
+        <p translate="footer">Rick Hanberry Catalyst Devworks Final Project 2016</p>
+    </div>
+</div>
+
+
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+
+
+<script src="scripts/app/app.js"></script>
+<script src="scripts/components/form/form.directive.js"></script>
+<script src="scripts/components/form/maxbytes.directive.js"></script>
+<script src="scripts/components/form/minbytes.directive.js"></script>
+<script src="scripts/components/form/uib-pager.config.js"></script>
+<script src="scripts/components/form/uib-pagination.config.js"></script>
+<script src="scripts/components/interceptor/errorhandler.interceptor.js"></script>
+<script src="scripts/components/interceptor/notification.interceptor.js"></script>
+<script src="scripts/components/navbar/navbar.directive.js"></script>
+<script src="scripts/components/navbar/navbar.controller.js"></script>
+<script src="scripts/components/util/truncate.filter.js"></script>
+<script src="scripts/components/util/base64.service.js"></script>
+<script src="scripts/components/util/capitalize.filter.js"></script>
+<script src="scripts/components/alert/alert.service.js"></script>
+<script src="scripts/components/alert/alert.directive.js"></script>
+<script src="scripts/components/util/parse-links.service.js"></script>
+<script src="scripts/components/util/date-util.service.js"></script>
+<script src="scripts/components/util/data-util.service.js"></script>
+<script src="scripts/components/util/sort.directive.js"></script>
+<script src="scripts/app/entities/entity.js"></script>
+<script src="scripts/app/error/error.js"></script>
+<script src="scripts/app/main/main.js"></script>
+<script src="scripts/app/main/main.controller.js"></script>
+<script src="scripts/app/entities/unitOfMeasure/unitOfMeasure.js"></script>
+<script src="scripts/app/entities/unitOfMeasure/unitOfMeasure.controller.js"></script>
+<script src="scripts/app/entities/unitOfMeasure/unitOfMeasure-dialog.controller.js"></script>
+<script src="scripts/app/entities/unitOfMeasure/unitOfMeasure-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/unitOfMeasure/unitOfMeasure.service.js"></script>
+<script src="scripts/app/entities/ingredients/ingredients.js"></script>
+<script src="scripts/app/entities/ingredients/ingredients.controller.js"></script>
+<script src="scripts/app/entities/ingredients/ingredients-dialog.controller.js"></script>
+<script src="scripts/app/entities/ingredients/ingredients-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/ingredients/ingredients.service.js"></script>
+<script src="scripts/app/entities/drinkRecipe/drinkRecipe.js"></script>
+<script src="scripts/app/entities/drinkRecipe/drinkRecipe.controller.js"></script>
+<script src="scripts/app/entities/drinkRecipe/drinkRecipe-dialog.controller.js"></script>
+<script src="scripts/app/entities/drinkRecipe/drinkRecipe-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/drinkRecipe/drinkRecipe.service.js"></script>
+<script src="scripts/app/entities/bakeryCategory/bakeryCategory.js"></script>
+<script src="scripts/app/entities/bakeryCategory/bakeryCategory.controller.js"></script>
+<script src="scripts/app/entities/bakeryCategory/bakeryCategory-dialog.controller.js"></script>
+<script src="scripts/app/entities/bakeryCategory/bakeryCategory-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/bakeryCategory/bakeryCategory.service.js"></script>
+<script src="scripts/app/entities/vendor/vendor.js"></script>
+<script src="scripts/app/entities/vendor/vendor.controller.js"></script>
+<script src="scripts/app/entities/vendor/vendor-dialog.controller.js"></script>
+<script src="scripts/app/entities/vendor/vendor-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/vendor/vendor.service.js"></script>
+<script src="scripts/app/entities/allergens/allergens.js"></script>
+<script src="scripts/app/entities/allergens/allergens.controller.js"></script>
+<script src="scripts/app/entities/allergens/allergens-dialog.controller.js"></script>
+<script src="scripts/app/entities/allergens/allergens-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/allergens/allergens.service.js"></script>
+<script src="scripts/app/entities/bakedGood/bakedGood.js"></script>
+<script src="scripts/app/entities/bakedGood/bakedGood.controller.js"></script>
+<script src="scripts/app/entities/bakedGood/bakedGood-dialog.controller.js"></script>
+<script src="scripts/app/entities/bakedGood/bakedGood-delete-dialog.controller.js"></script>
+<script src="scripts/components/entities/bakedGood/bakedGood.service.js"></script>
+</body>
+</html>

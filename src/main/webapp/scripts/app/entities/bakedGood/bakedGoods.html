@@ -1,0 +1,72 @@
+<div>
+    <h2>Baked Goods</h2>
+    <jh-alert></jh-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="btn-group flex-btn-group-container pull-left">
+                <button class="btn btn-primary btn-sm" ui-sref="bakedGood.new" >
+                    <span>
+                        New Baked Good
+                    </span>
+                </button>
+                <button class="btn btn-primary btn-sm" ui-sref="bakeryCategory" >
+                    <span>
+                        Category
+                    </span>
+                </button>
+                <button class="btn btn-primary btn-sm" ui-sref="vendor" >
+                    <span>
+                        Vendor
+                    </span>
+                </button>
+                <button class="btn btn-primary btn-sm" ui-sref="allergens" >
+                    <span>
+                        Allergen
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="sp-tabledata table table-striped">
+            <thead>
+                <tr>
+                    <th><span>Baked Good</span></th>
+                    <th><span>Cost</span></th>
+                    <th><span>Category</span></th>
+                    <th><span>Vendor</span></th>
+                    <th><span>Allergens</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="bakedGood in bakedGoods track by bakedGood.id">
+                    <td><a ui-sref="bakedGood.edit({id:bakedGood.id})">{{bakedGood.bakedGood}}</a></td>
+                    <td>{{bakedGood.bakedGoodCost | currency}}</td>
+                    <td>
+                        <a ui-sref="bakeryCategory.edit({id:bakedGood.bakeryCategory.id})">{{bakedGood.bakeryCategory.bakeryCategory}}</a>
+                    </td>
+                    <td>
+                        <a ui-sref="vendor.edit({id:bakedGood.vendor.id})">{{bakedGood.vendor.vendor}}</a>
+                    </td>
+                    <td>
+                        <span ng-repeat="allergens in bakedGood.allergenss">
+                            <a class="form-control-static" ui-sref="allergens.edit({id: {{allergens.id}}})">{{allergens.allergen}}</a>{{$last ? '' : ', '}}</br>
+                        <span>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="bakedGood.delete({id:bakedGood.id})"
+                                    class="btn btn-danger btn-sm">                                    
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

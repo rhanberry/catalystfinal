@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest
+test2(com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/http/HttpStatus
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.instrumentClass(EvoClassLoader.java:116)
+	at org.evosuite.runtime.instrumentation.EvoClassLoader.loadClass(EvoClassLoader.java:92)
+	at org.springframework.http.ResponseEntity.badRequest(ResponseEntity.java:239)
+	at com.rickhanberryfinal.webservices.UnitOfMeasureWebService.createUnitOfMeasure(UnitOfMeasureWebService.java:39)
+	at com.rickhanberryfinal.webservices.UnitOfMeasureWebService_ESTest.test2(UnitOfMeasureWebService_ESTest.java:63)
+
